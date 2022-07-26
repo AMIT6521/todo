@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
+import {Home } from '@angular/router/Home';
+import {Details } from '/Details';
 const routes: Routes = [];
 
 @NgModule({
@@ -8,3 +9,4 @@ const routes: Routes = [];
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+export const routingComponent = [Home, Details]
